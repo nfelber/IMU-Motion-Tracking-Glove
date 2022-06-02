@@ -4,7 +4,7 @@ We propose a simple open source motion tracking glove prototype based on inertia
 This project was meant to be achieved within a limited amount of time and there are therefore no plans to improve it further.
 There are however a lot of potential improvement that can be made starting from our prototype, and anybody is welcome to use it for inspiration or as a base to build upon.
 
-**Authors**: Sara Anejjar, Nathan Felber, Jad Tala, Nicolas ***REMOVED***.
+**Authors**: Sara Anejjar, Nathan Felber, Jad Tala, Nicolas S.
 
 ![Our glove prototype](hardware/images/glove-picture1.jpg)
 
