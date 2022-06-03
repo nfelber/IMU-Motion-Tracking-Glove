@@ -23,6 +23,13 @@ Player can interract with the game's environment in the following manners:
 3. By making gesture 3 or holding h, the bird floats at the same level in space.
 4. By making gesture 4 or pressing the button on the screen, player can reset the game.
 
+## Gestures
+The gestures that the player can make are the following:
+1. Gesture 1: bend all your fingers
+2. Gesture 2: bend your index and little finger
+3. Gesture 3: bend your middle finger, ring finger and little finger
+4. Gesture 4: bend your thumb, ring and little finger
+
 ## Source of used images:
 The images that our game uses come from the following sources:
 - Flappy Bird texture 1: https://openclipart.org/detail/239673/flying-bird-3-frame-1
