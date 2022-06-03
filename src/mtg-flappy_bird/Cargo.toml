@@ -1,0 +1,15 @@
+[package]
+name = "mtg-flappy_bird"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.mtg-drivers]
+path = "../mtg-drivers"
+
+[dependencies]
+pyo3 = { version = "0.16.5", features = ["auto-initialize"] }
+uuid = "0.8.2"
+tokio = { version = "1.17.0", features = ["full"] }
+strum = "0.24.0"
