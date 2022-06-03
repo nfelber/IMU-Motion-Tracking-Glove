@@ -1,0 +1,13 @@
+[package]
+name = "midi-sequencer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+midir = "0.8.0"
+"mtg-drivers" = { path = "../mtg-drivers" }
+uuid = "0.8.2"
+cgmath = "0.18.0"
+tokio = { version = "1.17.0", features = ["full"] }
