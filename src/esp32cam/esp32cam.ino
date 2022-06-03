@@ -6,6 +6,10 @@
 #include <BLEServer.h>
 #include <BLE2902.h>
 
+const int RED_PIN = 13;
+const int GREEN_PIN = 14;
+const int BLUE_PIN = 15;
+
 typedef struct {
   float roll;
   float pitch;
@@ -179,6 +183,10 @@ class MyServerCallbacks: public BLEServerCallbacks
 
 void setup()
 {
+  pinMode(RED_PIN, OUTPUT);
+  pinMode(GREEN_PIN, OUTPUT);
+  pinMode(BLUE_PIN, OUTPUT);
+
   /**
    * WiFi for ESP8266 comms
    */
@@ -229,6 +237,10 @@ void loop()
 {
   // notify changed value
   if (deviceConnected) {
+      double t = millis() / 1000.0;
+      analogWrite(RED_PIN, (int) ((1+sin(t)) * 127));
+      analogWrite(GREEN_PIN, (int) ((1+sin(2*t)) * 127));
+      analogWrite(BLUE_PIN, (int) ((1+sin(3*t)) * 127));
       delay(5); // safest lowest
   }
 
