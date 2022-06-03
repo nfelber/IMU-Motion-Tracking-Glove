@@ -1,0 +1,3 @@
+[submodule "src/mtg-drivers"]
+	path = src/mtg-drivers
+	url = https://github.com/JadTala/mtg-drivers
