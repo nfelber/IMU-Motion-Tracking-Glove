@@ -90,4 +90,6 @@ These additional knobs control the frequency, the cutoff, the base height of eve
 
 ## Flappy bird
 
-...
+The detailed description of the Flappy Bird game can be found under the following link:
+https://github.com/nfelber/IMU-Motion-Tracking-Glove/tree/main/src/flappy_bird
+
